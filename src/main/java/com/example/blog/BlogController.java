@@ -45,7 +45,7 @@ public class BlogController {
     }
 
     //CRUD - Update
-    @RequestMapping(value = "update/{id}",method = RequestMethod.PATCH )
+    @RequestMapping(value = "update/{id}",method = RequestMethod.POST )
     public Blog updateBlog(@PathVariable("id") int id, @RequestBody Blog blogChanges) {
         System.out.println("Updating Blog with Id :" + id);
         Blog blogToUpdate=getBlogById(id);

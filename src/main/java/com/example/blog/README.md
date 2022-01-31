@@ -24,16 +24,16 @@
     - [x]  / api / v1 / blog / update / <id> - View a specific post
     - [x]  / api / v1 / blog / delete / <id> - Delete a specific post
     - [x]  / api / v1 / blog / create - Add a new post
-- [ ]  More may be added if you feel the need for it
+- [x]  More may be added if you feel the need for it
 - [x]  Each request must use an appropriate HTTP method (GET, POST, PATCH et
   cetera)
 - [x]  Your code must be saved in version control with Git
 ###Client components:
 - [ ] The client component must be a text-based interface (CLI)
 - [ ] The user should be able to list / add / edit / delete blog posts via API requests to the server component
-- [ ]  The user must be able to list all posts (ID and title are displayed)
+- [x]  The user must be able to list all posts (ID and title are displayed)
 - [ ]  The user should be able to request a specific post and read the content
-- [ ]  No information should be stored in the client
+- [x]  No information should be stored in the client
 - [ ]  If the user tries to view, delete, edit or change a post that does not
   there should be a clear error message displayed
 - [ ]  Your code must be saved in version control with Git

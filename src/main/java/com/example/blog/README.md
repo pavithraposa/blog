@@ -1,11 +1,12 @@
 # ATTRIBUTES
-- [ ] A heading (title)
-- [ ] content (body)
-  - [ ]Id
+ - [x] A heading (title)
+ - [x] description
+ - [x] id
+ 
 
 # Checklist: Functionality for Pass(G)
 ###Planning:
-- [ ] You should have a file named README.md in the server component where you
+- [x] You should have a file named README.md in the server component where you
   lists at least 10 points of things you need to do. The descriptions
   may be short but should be clear. It should be clear to read
   whether that point is settled or not.
@@ -13,20 +14,20 @@
 - [ ]  It is encouraged that you use the BDD formulations
   (“Given / when / then”)
 ###Server component:
-- [ ] The server should use the Spring framework and it is in the server like everyone else
+- [x] The server should use the Spring framework and it is in the server like everyone else
   blog posts are saved
-- [ ] The server should respond to API requests to list posts, edit posts, delete
+- [x] The server should respond to API requests to list posts, edit posts, delete
   posts and view specific posts.
-- [ ] The addresses of these API requests should be as follows:
-    - [ ] / api / v1 / blog / list - List all posts
-    - [ ]  / api / v1 / blog / view / <id> - View a specific post
-    - [ ]  / api / v1 / blog / update / <id> - View a specific post
-    - [ ]  / api / v1 / blog / delete / <id> - Delete a specific post
-    - [ ]  / api / v1 / blog / create - Add a new post
+- [x] The addresses of these API requests should be as follows:
+    - [x] / api / v1 / blog / list - List all posts
+    - [x]  / api / v1 / blog / view / <id> - View a specific post
+    - [x]  / api / v1 / blog / update / <id> - View a specific post
+    - [x]  / api / v1 / blog / delete / <id> - Delete a specific post
+    - [x]  / api / v1 / blog / create - Add a new post
 - [ ]  More may be added if you feel the need for it
-- [ ]  Each request must use an appropriate HTTP method (GET, POST, PATCH et
+- [x]  Each request must use an appropriate HTTP method (GET, POST, PATCH et
   cetera)
-- [ ]  Your code must be saved in version control with Git
+- [x]  Your code must be saved in version control with Git
 ###Client components:
 - [ ] The client component must be a text-based interface (CLI)
 - [ ] The user should be able to list / add / edit / delete blog posts via API requests to the server component

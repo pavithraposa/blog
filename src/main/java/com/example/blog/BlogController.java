@@ -67,7 +67,7 @@ public class BlogController {
 
     //CRUD - Delete
     @RequestMapping(value = "/delete/{id}",method = RequestMethod.DELETE)
-    public ArrayList<Blog> deleteBlog(@PathVariable("id") int id) {
+    public ArrayList<Blog> deleteBlogbyId(@PathVariable("id") int id) {
 
         System.out.println("Getting Blog details with id :" + id);
         Blog blogToDelete=getBlogById(id);
@@ -77,8 +77,9 @@ public class BlogController {
 
     }
 
+    //CRUD - Delete
     @RequestMapping(value = "/clear",method = RequestMethod.DELETE)
-    public void clearBlog() {
+    public void deleteAllBlogs() {
 
         myBlogs.clear();
         System.out.println("The Blog list is cleared!!!");
